@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Магазин тортов</title>
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/normalize.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="header" id="header">
+		<div class="container">
+				<nav class="nav" id="nav">
+					<a class="nav__link" href="#" data-scroll="#about">О Бисквите</a>
+					<div class="nav_wrapper">
+						<a class="nav__link" href="#" data-scroll="#footer">Контакты</a>
+						<a class="nav__link" href="#" data-scroll="#vacancies">Вакансии</a>
+						<a class="nav__link" href="#" data-scroll="#shops">Магазины</a>
+						<a class="nav__link" href="#" data-scroll="#shipping_and_payment">Доставка и оплата</a>
+					</div>
+					<a class="nav__link" href="#" data-scroll="#autorization">Личный кабинет</a>
+				</nav>
+				<div class="header_down">
+					<div class="header_wrapper_left">
+						<a class="nav__link" href="#" data-scroll="#cakes">Торты</a>
+						<a class="nav__link" href="#" data-scroll="#pastries">Пирожные</a>
+						<a class="nav__link" href="#" data-scroll="#to_order">На заказ</a>
+					</div>
+					<div class="header__logo" data-scroll="#home">
+						<img src="./img/header/logo.svg" alt="logo">
+					</div>
+					<div class="header-wrapper-right">
+						<img src="./img/header/search.svg" class="icon-search" alt="icon-search">
+						<img src="./img/header/like.svg" class="icon-like" alt="icon-like">
+						<a class="nav__link basket" href="#" data-scroll="#basket">Корзина</a>
+						<a class="nav__link basket dot" href="#" data-scroll="#basket">·</a>
+						<a class="nav__link price" href="#" data-scroll="#price">2 500 ₽</a>
+					</div>
+					<!-- hamburger-menu -->
+						<div class="hamburger-menu">
+							<input id="menu__toggle" type="checkbox" />
+							<label class="menu__btn" for="menu__toggle">
+							<span></span>
+							</label>
+							<ul class="menu__box">		
+								<li><a class="menu__item nav__link" href="#" data-scroll="#about">О Бисквите</a></li>
+									<li><a class="menu__item nav__link" href="#" data-scroll="#footer">Контакты</a></li>
+									<li><a class="menu__item nav__link" href="#" data-scroll="#vacancies">Вакансии</a></li>
+									<li><a class="menu__item  nav__link" href="#" data-scroll="#shops">Магазины</a></li>
+									<li><a class="menu__item nav__link" href="#" data-scroll="#shipping_and_payment">Доставка и оплата</a></li>
+									<li></li><a class="menu__item nav__link" href="#" data-scroll="#autorization">Личный кабинет</a></li>
+									<li><a class="menu__item nav__link" href="#" data-scroll="#cakes">Торты</a></li>
+									<li><a class="menu__item nav__link" href="#" data-scroll="#pastries">Пирожные</a></li>
+									<li><a class="menu__item nav__link" href="#" data-scroll="#to_order">На заказ</a></li>
+							</ul>
+						</div>
+				</div>	
+		</div>
+	</header>
+	<section class="section" class="catalog">
+		<div class="container">
+			<img src="./img/catalog/banner.png" class="catalog-banner" alt="banner">
+			<img src="./img/catalog/banner-tablet.png" class="catalog-banner-tablet" alt="banner">
+			<img src="./img/catalog/banner-mobile.png" class="catalog-banner-mobile" alt="banner">
+			<div class="cards">
+				<div class="card">
+					<img src="./img/catalog/1.png" class="card-img" alt="card-img">
+					<div class="card-content">
+						<div class="card__properties">
+							<p>400 ₽</p>
+							<img src="./img/catalog/Rectangle.jpg" class="rectangle" alt="">
+							<p>900 г</p>
+						</div>
+						<div class="card_wrapper">
+							<div class="card_name">
+								Пирожное «Фруктовый сад»
+							</div>
+							<div class="card-buttons">
+								<a class="card-button-basket">В корзину</a>
+								<div class="like-card-wrapper">
+									<img src="./img/catalog/like-card.svg" class="like-card" alt="like-card">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<img src="./img/catalog/2.png" class="card-img" alt="card-img">
+					<div class="card-content">
+						<div class="card__properties">
+							<p>1600 ₽</p>
+							<img src="./img/catalog/Rectangle.jpg" class="rectangle" alt="">
+							<p>900 г</p>
+						</div>
+						<div class="card_wrapper">
+							<div class="card_name">
+								Пирожное «Грация» с черникой
+							</div>
+							<div class="card-buttons">
+								<a class="card-button-basket">В корзину</a>
+								<div class="like-card-wrapper">
+									<img src="./img/catalog/like-card.svg" class="like-card" alt="like-card">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<img src="./img/catalog/3.png" class="card-img" alt="card-img">
+					<div class="card-content">
+						<div class="card__properties">
+							<p>800 ₽</p>
+							<img src="./img/catalog/Rectangle.jpg" class="rectangle" alt="">
+							<p>900 г</p>
+						</div>
+						<div class="card_wrapper">
+							<div class="card_name">
+								Пирожное «Лафрель»
+							</div>
+							<div class="card-buttons">
+								<a class="card-button-basket">В корзину</a>
+								<div class="like-card-wrapper">
+									<img src="./img/catalog/like-card.svg" class="like-card" alt="like-card">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<img src="./img/catalog/4.png" class="card-img" alt="card-img">
+					<div class="card-content">
+						<div class="card__properties">
+							<p>350 ₽</p>
+							<img src="./img/catalog/Rectangle.jpg" class="rectangle" alt="">
+							<p>900 г</p>
+						</div>
+						<div class="card_wrapper">
+							<div class="card_name">
+								Пирожное «Йогуртовое с голубикой»
+							</div>
+							<div class="card-buttons">
+								<a class="card-button-basket">В корзину</a>
+								<div class="like-card-wrapper">
+									<img src="./img/catalog/like-card.svg" class="like-card" alt="like-card">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<img src="./img/catalog/5.png" class="card-img" alt="card-img">
+					<div class="card-content">
+						<div class="card__properties">
+							<p>2500 ₽</p>
+							<img src="./img/catalog/Rectangle.jpg" class="rectangle" alt="">
+							<p>900 г</p>
+						</div>
+						<div class="card_wrapper">
+							<div class="card_name">
+								Пирожное «Воздушное с кремом»
+							</div>
+							<div class="card-buttons">
+								<a class="card-button-basket">В корзину</a>
+								<div class="like-card-wrapper">
+									<img src="./img/catalog/like-card.svg" class="like-card" alt="like-card">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<img src="./img/catalog/6.png" class="card-img" alt="card-img">
+					<div class="card-content">
+						<div class="card__properties">
+							<p>2500 ₽</p>
+							<img src="./img/catalog/Rectangle.jpg" class="rectangle" alt="">
+							<p>900 г</p>
+						</div>
+						<div class="card_wrapper">
+							<div class="card_name">
+								Пирожное «Корзиночка карамельная»
+							</div>
+							<div class="card-buttons">
+								<a class="card-button-basket">В корзину</a>
+								<div class="like-card-wrapper">
+									<img src="./img/catalog/like-card.svg" class="like-card" alt="like-card">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<img src="./img/catalog/7.png" class="card-img" alt="card-img">
+					<div class="card-content">
+						<div class="card__properties">
+							<p>2500 ₽</p>
+							<img src="./img/catalog/Rectangle.jpg" class="rectangle" alt="">
+							<p>900 г</p>
+						</div>
+						<div class="card_wrapper">
+							<div class="card_name">
+								Сердце с мастичным бантом
+							</div>
+							<div class="card-buttons">
+								<a class="card-button-basket">В корзину</a>
+								<div class="like-card-wrapper">
+									<img src="./img/catalog/like-card.svg" class="like-card" alt="like-card">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<img src="./img/catalog/8.png" class="card-img" alt="card-img">
+					<div class="card-content">
+						<div class="card__properties">
+							<p>2500 ₽</p>
+							<img src="./img/catalog/Rectangle.jpg" class="rectangle" alt="">
+							<p>900 г</p>
+						</div>
+						<div class="card_wrapper">
+							<div class="card_name">
+								Сердце с мастичным бантом
+							</div>
+							<div class="card-buttons">
+								<a class="card-button-basket">В корзину</a>
+								<div class="like-card-wrapper">
+									<img src="./img/catalog/like-card.svg" class="like-card" alt="like-card">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<img src="./img/catalog/9.png" class="card-img" alt="card-img">
+					<div class="card-content">
+						<div class="card__properties">
+							<p>2500 ₽</p>
+							<img src="./img/catalog/Rectangle.jpg" class="rectangle" alt="">
+							<p>900 г</p>
+						</div>
+						<div class="card_wrapper">
+							<div class="card_name">
+								Сердце с мастичным бантом
+							</div>
+							<div class="card-buttons">
+								<a class="card-button-basket">В корзину</a>
+								<div class="like-card-wrapper">
+									<img src="./img/catalog/like-card.svg" class="like-card" alt="like-card">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<img src="./img/catalog/10.png" class="card-img" alt="card-img">
+					<div class="card-content">
+						<div class="card__properties">
+							<p>2500 ₽</p>
+							<img src="./img/catalog/Rectangle.jpg" class="rectangle" alt="">
+							<p>900 г</p>
+						</div>
+						<div class="card_wrapper">
+							<div class="card_name">
+								Сердце с мастичным бантом
+							</div>
+							<div class="card-buttons">
+								<a class="card-button-basket">В корзину</a>
+								<div class="like-card-wrapper">
+									<img src="./img/catalog/like-card.svg" class="like-card" alt="like-card">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<img src="./img/catalog/11.png" class="card-img" alt="card-img">
+					<div class="card-content">
+						<div class="card__properties">
+							<p>2500 ₽</p>
+							<img src="./img/catalog/Rectangle.jpg" class="rectangle" alt="">
+							<p>900 г</p>
+						</div>
+						<div class="card_wrapper">
+							<div class="card_name">
+								Сердце с мастичным бантом
+							</div>
+							<div class="card-buttons">
+								<a class="card-button-basket">В корзину</a>
+								<div class="like-card-wrapper">
+									<img src="./img/catalog/like-card.svg" class="like-card" alt="like-card">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<img src="./img/catalog/12.png" class="card-img" alt="card-img">
+					<div class="card-content">
+						<div class="card__properties">
+							<p>2500 ₽</p>
+							<img src="./img/catalog/Rectangle.jpg" class="rectangle" alt="">
+							<p>900 г</p>
+						</div>
+						<div class="card_wrapper">
+							<div class="card_name">
+								Сердце с мастичным бантом
+							</div>
+							<div class="card-buttons">
+								<a class="card-button-basket">В корзину</a>
+								<div class="like-card-wrapper">
+									<img src="./img/catalog/like-card.svg" class="like-card" alt="like-card">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	
+</body>
+</html>
